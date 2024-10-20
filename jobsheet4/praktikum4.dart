@@ -9,7 +9,7 @@ void main(){
   //LANGKAH-3
   var list1 = [1, 2, null];
   print(list1);
-  var list3 = [0, ...?list1];
+  var list3 = [0, ...list1];
   print(list3.length);
 
   var nim = [22, 41, 76, 00, 07];
