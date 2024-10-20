@@ -5,21 +5,21 @@ class ItemPage extends StatelessWidget {
   final Item item; // Parameter untuk menerima data item
 
   // Constructor untuk menerima data item
-  const ItemPage({super.key, required this.item});
+  const ItemPage({super.key, required this.item}); // Parameter 'item' harus ada di constructor
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Shopping List'), // Menampilkan nama item di AppBar
+        title: Text(item.name), // Menampilkan nama item di AppBar
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('${item.name} with ${item.price}'),
-            //Text('Item: ${item.name} with Price: Rp${item.price}'), // Menampilkan nama item
-            //Text('Price: Rp${item.price}'), // Menampilkan harga item
+            Text('${item.name} - Rp${item.price}'),
+            Text('Stock: ${item.stock}'), // Menampilkan stok
+            Text('Rating: ${item.rating}'), // Menampilkan rating
           ],
         ),
       ),

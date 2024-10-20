@@ -205,3 +205,27 @@ final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda.
 
 6. Selesaikan Praktikum 5: Navigasi dan Rute tersebut. Cobalah modifikasi menggunakan plugin go_router, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!
+
+- berikut modifikasi inputan yang saya masukkan berdasarkan permintaan di atas
+
+- - item
+
+<img src="belanja_flutter/itemm.JPG">
+
+- - halaman item
+
+<img src="belanja_flutter/itemp.JPG">
+
+- - halaman beranda
+
+<img src="belanja_flutter/home.JPG">
+
+- - main
+
+<img src="belanja_flutter/mainn.JPG">
+
+- berikut output yang dihasilkan dari modifikasi berdasarkan permintaan di atas
+
+<img src="belanja_flutter/output2.JPG">
+
+<img src="belanja_flutter/output22.JPG">
